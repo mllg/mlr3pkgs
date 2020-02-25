@@ -4,6 +4,7 @@ Meta package with most mlr3 packages as submodules
 Update all submodules:
 ```bash
 git pull --recurse-submodules
+git submodule update --remote
 ```
 
 Commit in all submodules:
