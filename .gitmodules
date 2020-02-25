@@ -1,0 +1,36 @@
+[submodule "mlr3"]
+	path = mlr3
+	url = git@github.com:mlr-org/mlr3.git
+[submodule "mlr3db"]
+	path = mlr3db
+	url = git@github.com:mlr-org/mlr3db.git
+[submodule "mlr3filters"]
+	path = mlr3filters
+	url = git@github.com:mlr-org/mlr3filters.git
+[submodule "mlr3learners"]
+	path = mlr3learners
+	url = git@github.com:mlr-org/mlr3learners.git
+[submodule "mlr3measures"]
+	path = mlr3measures
+	url = git@github.com:mlr-org/mlr3measures.git
+[submodule "mlr3misc"]
+	path = mlr3misc
+	url = git@github.com:mlr-org/mlr3misc.git
+[submodule "mlr3pipelines"]
+	path = mlr3pipelines
+	url = git@github.com:mlr-org/mlr3pipelines.git
+[submodule "mlr3proba"]
+	path = mlr3proba
+	url = git@github.com:mlr-org/mlr3proba.git
+[submodule "mlr3tuning"]
+	path = mlr3tuning
+	url = git@github.com:mlr-org/mlr3tuning.git
+[submodule "mlr3verse"]
+	path = mlr3verse
+	url = git@github.com:mlr-org/mlr3verse.git
+[submodule "mlr3viz"]
+	path = mlr3viz
+	url = git@github.com:mlr-org/mlr3viz.git
+[submodule "paradox"]
+	path = paradox
+	url = git@github.com:mlr-org/paradox.git
