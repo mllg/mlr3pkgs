@@ -2,17 +2,17 @@
 Meta package with most mlr3 packages as submodules
 
 Update all submodules:
-```{bash}
+```bash
 git pull --recurse-submodules
 ```
 
 Commit in all submodules:
 
-```{bash}
+```bash
 git submodule foreach 'git commit -a -m "<msg>"'
 ```
 
 Push in all submodules
-```{bash}
+```bash
 git push --recurse-submodules=on-demand
 ```
