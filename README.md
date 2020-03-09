@@ -1,6 +1,11 @@
 # mlr3pkgs
 Meta package with most mlr3 packages as submodules
 
+Initialize:
+```bash
+git submoduel update --init --recursive
+```
+
 Update all submodules:
 ```bash
 git pull --recurse-submodules
