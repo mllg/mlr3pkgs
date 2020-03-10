@@ -1,14 +1,14 @@
 # mlr3pkgs
 Meta package with most mlr3 packages as submodules
 
-Initialize:
+Checkout:
 ```bash
-git submodule update --jobs 4 --init --recursive
+git clone --recursive git@github.com:mllg/mlr3pkgs.git
 ```
 
 Update all submodules:
 ```bash
-git submodule foreach git pull origin master
+git submodule update --remote --merge
 ```
 
 Commit in all submodules:
