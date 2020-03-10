@@ -3,13 +3,12 @@ Meta package with most mlr3 packages as submodules
 
 Initialize:
 ```bash
-git submoduel update --init --recursive
+git submodule update --jobs 4 --init --recursive
 ```
 
 Update all submodules:
 ```bash
-git pull --recurse-submodules
-git submodule update --remote
+git submodule foreach git pull origin master
 ```
 
 Commit in all submodules:
